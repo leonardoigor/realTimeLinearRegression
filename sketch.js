@@ -3,7 +3,7 @@ let ys = [];
 
 let m, b;
 
-const learningRate = 0.1;
+const learningRate = 0.01;
 const optimizer = tf.train.sgd(learningRate);
 let w = window.innerWidth;
 let h = window.innerHeight;
